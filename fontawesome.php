@@ -7,10 +7,8 @@ if(!isset($_POST['unox']) || $_POST['unox']!=$_SESSION['unox']) {sleep(2);exit;}
 include('../../config.php');
 include('lang/lang.php');
 // ********************* actions *************************************************************************
-if (isset($_POST['action']))
-	{
-	switch ($_POST['action'])
-		{
+if(isset($_POST['action'])) {
+	switch($_POST['action']) {
 		// ********************************************************************************************
 		case 'plugin': ?>
 		<div class="blocForm fontawesome">
@@ -21,8 +19,8 @@ if (isset($_POST['action']))
 		</div>
 		<?php break;
 		// ********************************************************************************************
-		}
+	}
 	clearstatcache();
 	exit;
-	}
+}
 ?>

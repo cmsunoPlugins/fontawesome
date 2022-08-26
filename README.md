@@ -29,4 +29,5 @@ Adds a button in CKEditor to insert FontAwesome icons on the site.
 
 ### Versions ###
 
+* 1.1 - 26/08/2022 : CSS file moved from HEAD to end of BODY.
 * 1.0 - 30/05/2018 : First stable version
